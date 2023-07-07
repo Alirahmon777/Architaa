@@ -1,0 +1,35 @@
+.clients {
+  margin-top: 285px;
+
+  &__content {
+    display: flex;
+    align-items: center;
+    gap: 59px;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+  }
+
+  &__title {
+    position: relative;
+    color: #0e1b1b;
+    font-family: 'Playfair Display';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 107%;
+      width: 305px;
+      height: 3px;
+      background: #0e1b1b;
+    }
+  }
+}

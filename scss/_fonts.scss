@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'Open Sans ExtraBold';
+  src: url('../assets/fonts/OpenSans_Condensed-ExtraBold.ttf');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Open Sans ExtraBoldItalic';
+  src: url('../assets/fonts/OpenSans_Condensed-ExtraBoldItalic.ttf');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: url('../assets/fonts/OpenSans_Condensed-Bold.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Open Sans BoldItalic';
+  src: url('../assets/fonts/OpenSans_Condensed-BoldItalic.ttf');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Open Sans SemiBold';
+  src: url('../assets/fonts/OpenSans_Condensed-SemiBold.ttf');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Open Sans SemiBoldItalic';
+  src: url('../assets/fonts/OpenSans_Condensed-SemiBoldItalic.ttf');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Open Sans Medium';
+  src: url('../assets/fonts/OpenSans_Condensed-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Open Sans MediumItalic';
+  src: url('../assets/fonts/OpenSans_Condensed-MediumItalic.ttf');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Open Sans Regular';
+  src: url('../assets/fonts/OpenSans_Condensed-Regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Open Sans RegularItalic';
+  src: url('../assets/fonts/OpenSans_Condensed-Italic.ttf');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Open Sans Light';
+  src: url('../assets/fonts/OpenSans_Condensed-Light.ttf');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Open Sans LightItalic';
+  src: url('../assets/fonts/OpenSans_Condensed-LightItalic.ttf');
+  font-weight: 300;
+  font-style: italic;
+}
+
+/* playfair-display-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../assets/fonts/playfair-display-v30-latin-regular.woff2')
+    format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* playfair-display-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../assets/fonts/playfair-display-v30-latin-700.woff2')
+    format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}

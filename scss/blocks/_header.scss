@@ -1,0 +1,41 @@
+.header {
+  padding: 24px 0 39px;
+  background: #0e1b1b;
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__box {
+    display: flex;
+    align-items: center;
+    gap: 444px;
+  }
+
+  &__content {
+    position: relative;
+  }
+
+  &__logo-before {
+    position: absolute;
+    top: 40%;
+    right: 75%;
+    width: 355px;
+    height: 1px;
+    background: #ffc94b;
+  }
+
+  &__social {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+  }
+
+  &__btn {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+}
